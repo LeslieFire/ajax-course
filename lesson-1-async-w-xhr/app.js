@@ -17,7 +17,7 @@
 				const firstImage = data.results[0]
 
 				htmlContent = `<figure>
-					<img source="${firstImage.urls.regular}" alt="${searchedForText}">
+					<img src="${firstImage.urls.regular}" alt="${searchedForText}">
 					<figcaption>${searchedForText} by ${firstImage.user.name}</figcaption>
 				</figure>`;
 			} else {
