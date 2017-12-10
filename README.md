@@ -1,3 +1,11 @@
+# 挺有意思的一个小练习
+
+* 把api-key之类的都改成自己的
+* 拿nytimes的新闻还需要科学上网
+* 用三种方式进行异步取数, XMLHttpRequest, jQuery.ajax, Fetch
+
+
+
 # Ajax
 
 This is the repo for [Udacity's Ajax course](). The course covers making asynchronous requests using three different methods:

@@ -12,7 +12,7 @@
 		const imgRequest = new XMLHttpRequest();
 		imgRequest.open('GET', `https://api.unsplash.com/search/photos?page=1&query=${searchedForText}`);
 		imgRequest.onload = addImage;
-		imgRequest.setRequestHeader('Authorization', 'Client-ID 8a33b8c587ac1fdfcf362ed39fd5dea033dabb3f05f24e6a2e8d2a8544ca6e95');
+		imgRequest.setRequestHeader('Authorization', 'Client-ID 396ab53844833485b2340fa1c1c62775d9641861231c771e2e6c77b7b14f639a');
 		imgRequest.send()
 
 		const articleRequest = new XMLHttpRequest();
