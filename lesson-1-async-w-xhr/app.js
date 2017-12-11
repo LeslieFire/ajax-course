@@ -17,7 +17,7 @@
 
 		const articleRequest = new XMLHttpRequest();
 		articleRequest.onload = addArticles;
-		articleRequest.open('GET', `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=839c6639b4cc4fa0afb53e0d2333bbde`);
+		articleRequest.open('GET', `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=0feb6a1a10ea4aa8a0176972eef9e16a`);
 		articleRequest.send();
     });
 
